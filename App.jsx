@@ -45,10 +45,10 @@ const programmes = [
 ];
 
 const gallery = [
-  "Cultural Celebration",
-  "Women Empowerment",
-  "Youth Leadership",
-  "Community Unity"
+  { title: "Cultural Celebration", img: "/cultural day.JPG" },
+  { title: "Women Empowerment", img: "/women empowerment.jpg" },
+  { title: "Community Unity", img: "/event 1.jpg" },
+  { title: "Youth Leadership", img: "/event 2.JPG" }
 ];
 
 export default function App() {
@@ -167,13 +167,12 @@ export default function App() {
         </div>
 
         <div className="gallery-grid">
-          {gallery.map((item, index) => (
-            <div className="gallery-card" key={item}>
-              <Camera size={34} />
-              <h3>{item}</h3>
-              <p>Photo space {index + 1}</p>
-            </div>
-          ))}
+         {gallery.map((item) => (
+  <div className="gallery-card" key={item.title}>
+    <img src={item.img} alt={item.title} className="gallery-img" />
+    <h3>{item.title}</h3>
+  </div>
+))}
         </div>
       </section>
 
