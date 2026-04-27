@@ -43,12 +43,11 @@ const programmes = [
   "Community welfare, support and integration in the UK",
   "Heritage celebrations, family gatherings and public awareness"
 ];
-
 const gallery = [
-  { title: "Cultural Celebration", img: "/cultural%20day.JPG" },
-  { title: "Women Empowerment", img: "/women%20empowerment.jpg" },
-  { title: "Community Unity", img: "/event%201.jpg" },
-  { title: "Youth Leadership", img: "/event%202.JPG" }
+  { title: "Cultural Celebration", img: "/cultural.jpg" },
+  { title: "Women Empowerment", img: "/women.jpg" },
+  { title: "Community Unity", img: "/unity.jpg" },
+  { title: "Youth Leadership", img: "/youth.jpg" }
 ];
 export default function App() {
   return (
