@@ -45,12 +45,11 @@ const programmes = [
 ];
 
 const gallery = [
-  { title: "Cultural Celebration", img: "/cultural day.JPG" },
-  { title: "Women Empowerment", img: "/women empowerment.jpg" },
-  { title: "Community Unity", img: "/event 1.jpg" },
-  { title: "Youth Leadership", img: "/event 2.JPG" }
+  { title: "Cultural Celebration", img: "/cultural%20day.JPG" },
+  { title: "Women Empowerment", img: "/women%20empowerment.jpg" },
+  { title: "Community Unity", img: "/event%201.jpg" },
+  { title: "Youth Leadership", img: "/event%202.JPG" }
 ];
-
 export default function App() {
   return (
     <main>
